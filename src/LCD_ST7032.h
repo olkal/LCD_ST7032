@@ -57,7 +57,7 @@
 #define FOLLOWER_CONTROL_Fon          0x08 //Fon: set follower circuit on/off
 
 #define CONTRAST_MAX                  0x3F //limit range max value (0x00 - 0x3F)
-#define CONTRAST_MIN                  0x10 //limit range min value (0x00 - 0x3F)
+#define CONTRAST_MIN                  0x00 //limit range min value (0x00 - 0x3F)
 #define WRITE_DELAY_MS                  30 //see data sheet
 #define HOME_CLEAR_DELAY_MS			  1200 //see data sheet
 
