@@ -16,7 +16,7 @@
 
 #define Write_Address                 0x3E //i2c address
 #define CNTRBIT                       0x00 //followed by command bytes
-#define CNTRBIT_CO                    0x80 //followed by 1 command byte
+#define CNTRBIT_CO                    0x00 //followed by 1 command byte
 #define CNTRBIT_RS                    0x40 //after last control byte, followed by DDRAM data byte(s)
 #define CLEAR_DISPLAY                 0x01 //Clear display
 #define RETURN_HOME                   0x02 //Cursor home to 00H
